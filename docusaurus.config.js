@@ -34,11 +34,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'IT Handbook',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
