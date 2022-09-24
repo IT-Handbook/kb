@@ -10,7 +10,7 @@ const config = {
   tagline: 'Spreading Knowledge',
   url: 'https://it-handbook.github.io',
   //trailingSlash: false,
-  baseUrl: '/kb/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
