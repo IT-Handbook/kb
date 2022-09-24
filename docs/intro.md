@@ -18,7 +18,7 @@ I also have seen in various jobs where information has been gatekeeped for whate
 Knowledge should be shared and that is exactly the goal with this "IT Handbook".
 
 ### Think something should be added, changed, or updated?
-> Submit a PR [here](https://github.com/IT-Handbook/kb/pulls).
+> Submit an [Issue](https://github.com/IT-Handbook/kb/issues) or [Pull request](https://github.com/IT-Handbook/kb/pulls).
 
 ![](https://media4.giphy.com/media/ErFoSzJp8wWB2/giphy.gif)
 
