@@ -12,3 +12,6 @@ This is a constant work in progress knowledgebase for all types of IT profession
 > Submit a PR [here](https://github.com/IT-Handbook/kb/pulls).
 
 ![](https://media4.giphy.com/media/ErFoSzJp8wWB2/giphy.gif)
+
+### Support this Project:
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ohitsjudd)
