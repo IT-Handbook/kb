@@ -15,3 +15,5 @@ This is a constant work in progress knowledgebase for all types of IT profession
 
 ### Support this Project:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ohitsjudd)
+[![ethereum](https://i.imgur.com/cTDlGXj.png)]()0x9B0eb56A5674161505F08d67CF332F9eC0BA6d49
+[![solana](https://i.imgur.com/sJ3PgSe.png)]()CNtmxB72P4g9tcBD4CbihmpJmRpm53SdUA96k6hSynD2
