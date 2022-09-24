@@ -4,58 +4,51 @@ sidebar_position: 10
 ---
 
 ## Filter Traffic by Source or Destrination IP
-```
-ip.dst==8.8.8.8
-ip.src==8.8.8.8
-```
+
+![Example](https://i.imgur.com/8RwAiPX.png)
+
+![Example](https://i.imgur.com/qb57Arc.png)
 
 ## Filter traffic by specific address
-```
-ip.addr==8.8.8.8
-```
+
+![Example](https://i.imgur.com/aR4oC8M.png)
 
 ## Filter traffic using protocol
-```
-dns
-dns and http
-dns or http
-```
+
+![Example](https://i.imgur.com/bUujXp4.png)
+
+![Example](https://i.imgur.com/1jEICeZ.png)
 
 ## Filter traffic using the Port number
-```
-tcp.port == 443
-```
+
+![Example](https://i.imgur.com/pzV6xnF.png)
 
 ## Filter TCP traffic using Flags
-```
-tcp.analysis.flags
-```
+
+![Example](https://i.imgur.com/6K05UJ9.png)
 
 ## Filter traffic using Knot (Exclude)
-```
-!(arp or dns or icmp)
-```
+
+![Example](https://i.imgur.com/i0prWnD.png)
 
 ## Filtering a conversation
-```
-tcp.stream
-```
+
+![Example](https://i.imgur.com/dLywcEA.png)
 
 ## Filtering using particular text in a packet
-```
-tcp contains facebook
-udp contains facebook
-```
+
+![Example](https://i.imgur.com/WAE5QGD.png)
+
+![Example](https://i.imgur.com/DHuNNKF.png)
 
 ## Filter using the HTTP Response code
-```
-http.response.code == 200
-```
 
-## Name Resolution in Wireshark (Enable in Preferences | Not Enabled by default)
+![Example](https://i.imgur.com/Cu483Xs.png)
 
+## Name Resolution in Wireshark (Enable in Preferences)
 
-## Filtering traffic with geoip (Example showing excluding U.S. based traffic)
-```
-ip and not ip.geoip.country == "United States"
-```
+![Example](https://i.imgur.com/akCJthE.png)
+
+## Filtering traffic with geoip (Example excluding U.S. traffic)
+
+![Example](https://i.imgur.com/hCjjt6E.png)

@@ -1,0 +1,8 @@
+{
+    "label": "EMAIL",
+      "position": 4,
+      "link": {
+        "type": "generated-index",
+        "description": "Email",
+      }
+  }
