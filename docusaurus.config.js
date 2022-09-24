@@ -53,8 +53,8 @@ const config = {
       navbar: {
         title: 'IT Handbook',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Handbook Logo',
+          src: 'img/ithand_64.png',
         },
         items: [
           {
