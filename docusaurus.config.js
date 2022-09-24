@@ -34,6 +34,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
+          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
