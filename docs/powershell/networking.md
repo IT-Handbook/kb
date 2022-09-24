@@ -38,9 +38,8 @@ Test-NetConnection “google.com” -Port 80
 
 ## Perform DNS lookup
 ```powershell 
-Resolve-DnsName -Name “vpn1.rivcoca.org”
+Resolve-DnsName -Name “google.com”
 ```
-![Example](./assets/dnslook.png)
 
 ## Flush DNS cache
 ```powershell 
