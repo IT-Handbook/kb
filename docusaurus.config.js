@@ -48,7 +48,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
       },
       navbar: {
         title: 'IT Handbook',
@@ -65,7 +65,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/IT-Handbook',
             label: 'GitHub',
             position: 'right',
           },
