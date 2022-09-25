@@ -1,8 +1,7 @@
 ---
+title: COMMON
 sidebar_position: 5
 ---
-
-# OUTLOOK
 
 ## How-to: Reset View/Layout
 *Useful command if view/layout of Outlook gets messed up.*
