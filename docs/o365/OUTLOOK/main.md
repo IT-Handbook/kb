@@ -1,6 +1,6 @@
 ---
 title: COMMON
-sidebar_position: 5
+sidebar_position: 0
 ---
 
 ## How-to: Reset View/Layout
