@@ -10,6 +10,20 @@ outlook.exe /cleanviews
 ```
 ![](https://i.imgur.com/q63aLNJ.png)
 
+## Other Useful Outlook Switches
+```
+outlook.exe /cleanclientrules - Starts Outlook and deletes client-based rules.
+outlook.exe /cleanrules - Starts Outlook and deletes client- and server-based rules.
+outlook.exe /cleanserverrules - Starts Outlook and deletes server-based rules.
+outlook.exe /cleanips - Restores receival of new messages in Exchange Cached mode (KB968773)
+outlook.exe /cleanviews - Restores default views. All custom views you created are lost.
+outlook.exe /manageprofiles - Opens the Mail Setup dialog to manage your Mail Profile and account settings outside of Outlook.
+outlook.exe /profile <profilename> - Loads the specified profile. If your profile name contains a space, enclose the profile name in quotation marks (“).
+outlook.exe /resetfolders - Restores missing folders for the default delivery location.
+outlook.exe /resetoutlookbar - Rebuilds the Outlook Bar.
+outlook.exe /resetnavpane - Clears and regenerates the Navigation Pane for the current profile.
+```
+
 ## How-to: Repair PSTs
 - Run **SCANPST.EXE**
 > C:\Program Files (x86)\Microsoft Office\root\Office16
