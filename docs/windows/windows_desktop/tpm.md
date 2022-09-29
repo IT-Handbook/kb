@@ -39,8 +39,8 @@ Restart the device then download and run the [SaRA package for sign in issues](h
 **Other Quick Notes for fixes found various places on the internet (try the above first)**
 
 * Click on start, type tpm.msc, Clear TPM, restart computer.
-* **Delete:** C:\users\<user>\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy
-* **Delete Contents** in: C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC
+* **Delete:** ```C:\users\<user>\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy```
+* **Delete Contents** in: ```C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC```
 * Clear AppCache (ex. Teams cache)
-* Disable ADAL | Added DWORD "EnableADAL" with value "0" to HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity
+* Disable ADAL | Added DWORD "EnableADAL" with value "0" to ```HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity```
 
