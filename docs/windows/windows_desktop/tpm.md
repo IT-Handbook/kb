@@ -35,9 +35,8 @@ Restart the device then download and run the [SaRA package for sign in issues](h
 
 *Source: [Microsoft](https://learn.microsoft.com/en-us/office/troubleshoot/activation/tpm-malfunctioned)*
 
-:::note
 
-Other Quick Notes for fixes found various places on the internet (try the above first)
+**Other Quick Notes for fixes found various places on the internet (try the above first)**
 
 * Click on start, type tpm.msc, Clear TPM, restart computer.
 * **Delete:** C:\users\<user>\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy
@@ -45,4 +44,3 @@ Other Quick Notes for fixes found various places on the internet (try the above 
 * Clear AppCache (ex. Teams cache)
 * Disable ADAL | Added DWORD "EnableADAL" with value "0" to HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity
 
-:::
