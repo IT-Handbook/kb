@@ -28,20 +28,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-            - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - uses: pnpm/action-setup@v2
         with:
           version: 6.20.3
 
-      - uses: actions/setup-node@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 16
           cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build website
+      - name: Build
         run: pnpm build
       - name: Setup Pages
         uses: actions/configure-pages@v2
