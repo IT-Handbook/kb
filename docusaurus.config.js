@@ -66,6 +66,12 @@ const config = {
           },
         ],
       },
+      algolia: {
+        appId: 'NOBTYSVZF9',
+        apiKey: '1a7418931329464fe75eefa75fec87fa',
+        indexName: 'kb',
+        contextualSearch: true,
+      },
       footer: {
         style: 'dark',
         links: [
